@@ -64,6 +64,16 @@ public:
    */
   void UpdateEKF(const Eigen::VectorXd &z);
 
+
+  /**
+
+  * Updates the state based on z_pred and z
+
+  * @param z The measurement at k+1
+
+  */
+  void Update_ZPredZ(const Eigen::VectorXd &z_pred, const Eigen::VectorXd &z);
+
 };
 
 #endif /* KALMAN_FILTER_H_ */
