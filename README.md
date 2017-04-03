@@ -20,22 +20,20 @@ The goals / steps of this project are the following:
 
 ![Pedestrian Tracking 1](https://cloud.githubusercontent.com/assets/24623272/24600423/3659ca86-1887-11e7-939b-1a56ba1d1729.JPG)
 
-
 Accuracy - RMSE:  
-0.049147 ＜/br＞
-0.0260227 ＜/br＞
-0.530666 ＜/br＞
-0.370806 ＜/br＞ 
+0.049147   
+0.0260227   
+0.530666   
+0.370806   
 
 #### 2. sample data 2
 ![Pedestrian Tracking 2](https://cloud.githubusercontent.com/assets/24623272/24600428/3b37d926-1887-11e7-9ad1-1e741acde492.JPG)
 
-
 Accuracy - RMSE:  
-0.000000 ＜/br＞
-0.000000 ＜/br＞
-0.400706 ＜/br＞
-0.650560 ＜/br＞
+0.000000    
+0.000000     
+0.400706    
+0.650560    
 
 Note please check the notebook (ekf-visualization.ipynb) for details.
 
