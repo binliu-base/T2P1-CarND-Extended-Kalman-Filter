@@ -3,8 +3,16 @@
 #include <vector>
 #include "Eigen/Dense"
 
+using namespace std;
+
 class Tools {
 public:
+   /**
+  * Debug stuff
+  */ 
+  static string tracelog;
+  static bool trace_tag;
+  static ofstream  traceStream;  
   /**
   * Constructor.
   */
@@ -27,4 +35,12 @@ public:
 
 };
 
+class StringException : public std::exception
+{
+public:
+  std::string s;
+  StringException(std::string ss) : s(ss) {}
+  ~StringException() throw () {} // Updated
+  const char* what() const throw() { return s.c_str(); }
+};
 #endif /* TOOLS_H_ */

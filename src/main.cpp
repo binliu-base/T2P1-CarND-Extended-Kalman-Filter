@@ -13,6 +13,10 @@ using Eigen::MatrixXd;
 using Eigen::VectorXd;
 using std::vector;
 
+bool Tools::trace_tag = false;
+string Tools::tracelog = "trace.MY.log";
+ofstream Tools::traceStream = ofstream(Tools::tracelog.data(), ios::app);
+
 void check_arguments(int argc, char* argv[]) {
   string usage_instructions = "Usage instructions: ";
   usage_instructions += argv[0];
