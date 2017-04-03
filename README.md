@@ -22,8 +22,8 @@ The goals / steps of this project are the following:
 
 
 Accuracy - RMSE:  
- 0.049147
-0.0260227
+0.049147
+ 0.0260227
  0.530666
  0.370806  
 
@@ -33,9 +33,9 @@ Accuracy - RMSE:
 
 Accuracy - RMSE:  
 0.000000
-0.000000
-0.400706
-0.65056 
+ 0.000000
+ 0.400706
+ 0.65056 
 
 Note please check the notebook (ekf-visualization.ipynb) for details.
 
