@@ -30,7 +30,7 @@ Accuracy - RMSE:
 ![Pedestrian Tracking 2](https://cloud.githubusercontent.com/assets/24623272/24600428/3b37d926-1887-11e7-9ad1-1e741acde492.JPG)
 
 Accuracy - RMSE:  
-0.170537
+0.170537   
 0.167369    
 0.400666   
 0.63117   
