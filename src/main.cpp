@@ -140,6 +140,17 @@ int main(int argc, char* argv[]) {
   for (size_t k = 0; k < N; ++k) {
     // start filtering from the second frame (the speed is unknown in the first
     // frame)
+
+	 /*
+	if (k == 2) {
+	Tools::trace_tag = true;
+	//Tools::traceStream.open(Tools::tracelog.data(), ios::app);
+	Tools::traceStream.open(Tools::tracelog.data());
+	Tools::traceStream << "k=" << k << endl;
+	Tools::traceStream << "line=" << measurement_pack_list[k].raw_measurements_(0) << measurement_pack_list[k].raw_measurements_(1) << endl;
+	}
+	*/
+	
     fusionEKF.ProcessMeasurement(measurement_pack_list[k]);
 
     // output the estimation
@@ -169,6 +180,13 @@ int main(int argc, char* argv[]) {
 
     estimations.push_back(fusionEKF.ekf_.x_);
     ground_truth.push_back(gt_pack_list[k].gt_values_);
+
+	/*
+	if (Tools::trace_tag == false) {
+	Tools::traceStream.close();
+	}
+	*/
+
   }
 
   // compute the accuracy (RMSE)

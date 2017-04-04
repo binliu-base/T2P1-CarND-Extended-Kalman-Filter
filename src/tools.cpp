@@ -1,5 +1,6 @@
 #include <iostream>
 #include "tools.h"
+#include <fstream>
 
 using Eigen::VectorXd;
 using Eigen::MatrixXd;
@@ -77,6 +78,13 @@ MatrixXd Tools::CalculateJacobian(const VectorXd& x_state) {
 	Hj << (px / c2), (py / c2), 0, 0,
 		-(py / c1), (px / c1), 0, 0,
 		py*(vx*py - vy*px) / c3, px*(px*vy - py*vx) / c3, px / c2, py / c2;
+
+	if (Tools::trace_tag == true) {
+
+		Tools::traceStream << "tools.cpp ---> MatrixXd Tools::CalculateJacobian " << endl;
+		Tools::traceStream << "x_state=" << endl;
+		Tools::traceStream << x_state << endl;
+	}
 
 	return Hj;	
 }
