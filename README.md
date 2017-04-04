@@ -24,7 +24,7 @@ Accuracy - RMSE:
 0.026922   
 0.0243627   
 0.335336   
-0.370813    
+0.370813 
 
 #### 2. sample data 2
 ![Pedestrian Tracking 2](https://cloud.githubusercontent.com/assets/24623272/24600428/3b37d926-1887-11e7-9ad1-1e741acde492.JPG)
@@ -32,8 +32,8 @@ Accuracy - RMSE:
 Accuracy - RMSE:  
 0.170537   
 0.167369    
-0.400666   
-0.63117   
+0.38511   
+0.644944   
 
 Note please check the notebook (ekf-visualization.ipynb) for details.
 
