@@ -12,6 +12,7 @@ The goals / steps of this project are the following:
 [//]: # (Image References)
 [pedestrian_tracking_1]: (https://cloud.githubusercontent.com/assets/24623272/24600423/3659ca86-1887-11e7-939b-1a56ba1d1729.JPG)
 [pedestrian_tracking_2]: (https://cloud.githubusercontent.com/assets/24623272/24600428/3b37d926-1887-11e7-9ad1-1e741acde492.JPG)
+[result]:(https://cloud.githubusercontent.com/assets/24623272/24704459/58657b16-1a3a-11e7-8a9e-ac66eedb9175.jpg)
 
 
 ## Final Result
@@ -34,6 +35,9 @@ Accuracy - RMSE:
 0.167369    
 0.38511   
 0.644944   
+
+#### Output
+![result]:(https://cloud.githubusercontent.com/assets/24623272/24704459/58657b16-1a3a-11e7-8a9e-ac66eedb9175.jpg)
 
 Note please check the notebook (ekf-visualization.ipynb) for details.
 
