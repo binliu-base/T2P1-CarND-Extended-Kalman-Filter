@@ -37,7 +37,7 @@ Accuracy - RMSE:
 0.644944   
 
 #### Output
-![result]:(https://cloud.githubusercontent.com/assets/24623272/24704459/58657b16-1a3a-11e7-8a9e-ac66eedb9175.jpg)
+![result](https://cloud.githubusercontent.com/assets/24623272/24704459/58657b16-1a3a-11e7-8a9e-ac66eedb9175.jpg)
 
 Note please check the notebook (ekf-visualization.ipynb) for details.
 
